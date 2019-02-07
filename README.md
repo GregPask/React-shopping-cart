@@ -5,7 +5,7 @@
 https://redux-shopping-cart.netlify.com/
 
 
-Images and Product info taken from existing json data. All other code is custom.
+Images and Product info taken from existing data array. All other code is custom.
 
 
 Uses Redux for state management.
