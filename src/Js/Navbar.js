@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import Logo from "../Images/logo5.png";
+import Logo from "../images/logo5.png";
 
 import { Link } from "react-router-dom";
 
