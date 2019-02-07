@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import "./Navbar.scss";
+@import "./ProductList.scss";
+@import "./Details.scss";
+@import "./Cart.scss";
+
+
+// font-family: 'Permanent Marker', cursive;
+
+$mainBlue: #2a2a72;
+$lightBlue: #009ffd;
+$mainWhite: #f3f3f3;
+$mainDark: #232528;
+$mainYellow: #ffa400;
+
+
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $mainWhite !important;
+    color:  $mainDark !important; 
+    background-color: #e9e5e5 !important;
+}
+
+.text-title {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+
+.text-blue {
+    color:  $mainBlue;
+}
+
+
+.text-bright {
+    color: $lightBlue;
+}
+
+

@@ -1,0 +1,93 @@
+$mainBlue: #2a2a72;
+$lightBlue: #009ffd;
+$mainWhite: #f3f3f3;
+$mainDark: #232528;
+$mainYellow: #ffa400;
+
+#product-title {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive
+}
+
+
+
+#grid1 {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 1.5em;
+    grid-row-gap: 2em;
+   
+}
+
+.phone-item {
+    text-align: center;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: rgba(51, 51, 51, 0.842);
+    font-weight: 600;
+    padding: 10px;
+    font-size: 1.4rem;
+    border-radius: 7px;
+    box-shadow: 2px 2px 9px 1px rgba(92, 84, 84, 0.685);
+    position: relative;
+    overflow: hidden;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.phone-text {
+    position: absolute;
+    bottom: -10px;
+  
+}
+ 
+.phone-item img {
+    transition: all 0.3s ease-in;
+}
+
+.phone-item:hover .phone-image {
+    transform: scale(1.2); 
+}
+
+
+
+.cart-btn {
+position: absolute;
+bottom: 70px;
+right: 0px;
+padding: 0.2rem 0.4rem;
+background-color: $lightBlue;
+border: 0;
+border-radius: 0.5rem 0 0 0.5rem;
+color: #fff;
+transform: translate(100%, 100%);
+transition: all 0.5s ease;
+cursor: pointer;
+}
+
+
+.phone-item:hover .cart-btn {
+    transform: translate(0,0);
+}
+
+
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) { 
+   #grid1 {
+    grid-template-columns: repeat(2,1fr);
+   }
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) { 
+    #grid1 {
+        grid-template-columns: 1fr;
+       }
+ }
+
+
+
